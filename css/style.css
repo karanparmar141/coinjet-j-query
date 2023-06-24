@@ -27,6 +27,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.p-0{
+    padding-top: 0px;
+}
 .w-33 {
     width: 33.3333%;
     padding: 15px;
@@ -87,7 +90,7 @@ ul,ol {
     list-style: none;
 }
 .padding-100{
-    padding: 100px;
+    padding: 100px 0px;
 }
 .justify-content {
     justify-content: space-between;
@@ -186,9 +189,6 @@ nav ul>li a {
     color: var(--primary-800);
     padding: 0px 20px;
     font-size: 14px;
-}
-nav>ul>li:first-child>a {
-    color: var(--secandry-200);
 }
 .logo {
     margin: 10px 0px;
